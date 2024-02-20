@@ -1,0 +1,752 @@
+Type: Reliability block diagrams
+
+SubModel:
+Name: controlrodrbd
+Submodels Calling: []
+Number of series: 1
+Number of parallel: 2
+Number of bridge: 0
+System: serie0
+Number Blocks :12
+
+Block:
+Name: block0
+Description: null
+X, Y: 70,554
+K, N: 1,1
+leftNode: node0
+rightNode: node1
+leftConn: con0
+rightConn: con1
+inSystem: parallel0
+Name Component: 1
+Color: java.awt.Color[r=255,g=255,b=255]
+Hierarchy: null
+Value Hierarchy: []
+Block label:
+X, Y: 77,580
+Width, Height: 48,19
+Textwidth: 0
+
+Block:
+Name: block1
+Description: null
+X, Y: 158,580
+K, N: 1,1
+leftNode: node13
+rightNode: node2
+leftConn: con2
+rightConn: con3
+inSystem: serie0
+Name Component: 2
+Color: java.awt.Color[r=255,g=255,b=255]
+Hierarchy: null
+Value Hierarchy: []
+Block label:
+X, Y: 165,606
+Width, Height: 48,19
+Textwidth: 0
+
+Block:
+Name: block2
+Description: null
+X, Y: 226,580
+K, N: 1,1
+leftNode: node2
+rightNode: node3
+leftConn: con4
+rightConn: con5
+inSystem: serie0
+Name Component: 3
+Color: java.awt.Color[r=255,g=255,b=255]
+Hierarchy: null
+Value Hierarchy: []
+Block label:
+X, Y: 233,606
+Width, Height: 48,19
+Textwidth: 0
+
+Block:
+Name: block3
+Description: null
+X, Y: 294,580
+K, N: 1,1
+leftNode: node3
+rightNode: node4
+leftConn: con6
+rightConn: con7
+inSystem: serie0
+Name Component: 4
+Color: java.awt.Color[r=255,g=255,b=255]
+Hierarchy: null
+Value Hierarchy: []
+Block label:
+X, Y: 301,606
+Width, Height: 48,19
+Textwidth: 0
+
+Block:
+Name: block4
+Description: null
+X, Y: 362,580
+K, N: 1,1
+leftNode: node4
+rightNode: node5
+leftConn: con8
+rightConn: con9
+inSystem: serie0
+Name Component: 5
+Color: java.awt.Color[r=255,g=255,b=255]
+Hierarchy: null
+Value Hierarchy: []
+Block label:
+X, Y: 369,606
+Width, Height: 48,19
+Textwidth: 0
+
+Block:
+Name: block5
+Description: null
+X, Y: 430,580
+K, N: 1,1
+leftNode: node5
+rightNode: node6
+leftConn: con10
+rightConn: con11
+inSystem: serie0
+Name Component: 6
+Color: java.awt.Color[r=255,g=255,b=255]
+Hierarchy: null
+Value Hierarchy: []
+Block label:
+X, Y: 437,606
+Width, Height: 48,19
+Textwidth: 0
+
+Block:
+Name: block6
+Description: null
+X, Y: 498,580
+K, N: 1,1
+leftNode: node6
+rightNode: node7
+leftConn: con12
+rightConn: con13
+inSystem: serie0
+Name Component: 7
+Color: java.awt.Color[r=255,g=255,b=255]
+Hierarchy: null
+Value Hierarchy: []
+Block label:
+X, Y: 505,606
+Width, Height: 48,19
+Textwidth: 0
+
+Block:
+Name: block7
+Description: null
+X, Y: 566,580
+K, N: 1,1
+leftNode: node7
+rightNode: node8
+leftConn: con14
+rightConn: con15
+inSystem: serie0
+Name Component: 8
+Color: java.awt.Color[r=255,g=255,b=255]
+Hierarchy: null
+Value Hierarchy: []
+Block label:
+X, Y: 573,606
+Width, Height: 48,19
+Textwidth: 0
+
+Block:
+Name: block8
+Description: null
+X, Y: 634,580
+K, N: 1,1
+leftNode: node8
+rightNode: node16
+leftConn: con16
+rightConn: con17
+inSystem: serie0
+Name Component: 9
+Color: java.awt.Color[r=255,g=255,b=255]
+Hierarchy: null
+Value Hierarchy: []
+Block label:
+X, Y: 641,606
+Width, Height: 48,19
+Textwidth: 0
+
+Block:
+Name: block9
+Description: null
+X, Y: 722,554
+K, N: 1,1
+leftNode: node9
+rightNode: node10
+leftConn: con18
+rightConn: con19
+inSystem: parallel1
+Name Component: 10
+Color: java.awt.Color[r=255,g=255,b=255]
+Hierarchy: null
+Value Hierarchy: []
+Block label:
+X, Y: 729,580
+Width, Height: 48,19
+Textwidth: 0
+
+Block:
+Name: block10
+Description: null
+X, Y: 810,580
+K, N: 1,1
+leftNode: node17
+rightNode: node11
+leftConn: con20
+rightConn: con21
+inSystem: serie0
+Name Component: 11
+Color: java.awt.Color[r=255,g=255,b=255]
+Hierarchy: null
+Value Hierarchy: []
+Block label:
+X, Y: 814,606
+Width, Height: 48,19
+Textwidth: 0
+
+Block:
+Name: block11
+Description: null
+X, Y: 70,606
+K, N: 1,1
+leftNode: node14
+rightNode: node15
+leftConn: con22
+rightConn: con23
+inSystem: parallel0
+Name Component: 14
+Color: java.awt.Color[r=255,g=255,b=255]
+Hierarchy: null
+Value Hierarchy: []
+Block label:
+X, Y: 74,632
+Width, Height: 48,19
+Textwidth: 0
+
+Block:
+Name: block12
+Description: null
+X, Y: 722,606
+K, N: 1,1
+leftNode: node18
+rightNode: node19
+leftConn: con26
+rightConn: con27
+inSystem: parallel1
+Name Component: 13
+Color: java.awt.Color[r=255,g=255,b=255]
+Hierarchy: null
+Value Hierarchy: []
+Block label:
+X, Y: 726,632
+Width, Height: 48,19
+Textwidth: 0
+
+Component:
+Name:9
+Distribution:0
+Val0:840e-6
+Val1:null
+Val2:null
+Component:
+Name:8
+Distribution:0
+Val0:143e-5
+Val1:null
+Val2:null
+Component:
+Name:7
+Distribution:0
+Val0:950e-6
+Val1:null
+Val2:null
+Component:
+Name:6
+Distribution:0
+Val0:940e-8
+Val1:null
+Val2:null
+Component:
+Name:14
+Distribution:0
+Val0:520e-8
+Val1:null
+Val2:null
+Component:
+Name:5
+Distribution:0
+Val0:160e-8
+Val1:null
+Val2:null
+Component:
+Name:13
+Distribution:0
+Val0:801e-6
+Val1:null
+Val2:null
+Component:
+Name:4
+Distribution:0
+Val0:127e-5
+Val1:null
+Val2:null
+Component:
+Name:3
+Distribution:0
+Val0:250e-7
+Val1:null
+Val2:null
+Component:
+Name:2
+Distribution:0
+Val0:2e-4
+Val1:null
+Val2:null
+Component:
+Name:11
+Distribution:0
+Val0:163e-5
+Val1:null
+Val2:null
+Component:
+Name:1
+Distribution:0
+Val0:520e-8
+Val1:null
+Val2:null
+Component:
+Name:10
+Distribution:0
+Val0:801e-6
+Val1:null
+Val2:null
+Connector & Line:
+Number of connectors already created:30
+Number of lines already created:42
+
+Connector:
+Name:con0
+Number of lines:1
+Name:line0
+X1, Y1:60,568
+X2, Y2:70,568
+
+Connector:
+Name:con1
+Number of lines:1
+Name:line1
+X1, Y1:118,568
+X2, Y2:128,568
+
+Connector:
+Name:con2
+Number of lines:1
+Name:line2
+X1, Y1:148,594
+X2, Y2:158,594
+
+Connector:
+Name:con3
+Number of lines:1
+Name:line3
+X1, Y1:206,594
+X2, Y2:216,594
+
+Connector:
+Name:con4
+Number of lines:1
+Name:line4
+X1, Y1:216,594
+X2, Y2:226,594
+
+Connector:
+Name:con5
+Number of lines:1
+Name:line5
+X1, Y1:274,594
+X2, Y2:284,594
+
+Connector:
+Name:con6
+Number of lines:1
+Name:line6
+X1, Y1:284,594
+X2, Y2:294,594
+
+Connector:
+Name:con7
+Number of lines:1
+Name:line7
+X1, Y1:342,594
+X2, Y2:352,594
+
+Connector:
+Name:con8
+Number of lines:1
+Name:line8
+X1, Y1:352,594
+X2, Y2:362,594
+
+Connector:
+Name:con9
+Number of lines:1
+Name:line9
+X1, Y1:410,594
+X2, Y2:420,594
+
+Connector:
+Name:con10
+Number of lines:1
+Name:line10
+X1, Y1:420,594
+X2, Y2:430,594
+
+Connector:
+Name:con11
+Number of lines:1
+Name:line11
+X1, Y1:478,594
+X2, Y2:488,594
+
+Connector:
+Name:con12
+Number of lines:1
+Name:line12
+X1, Y1:488,594
+X2, Y2:498,594
+
+Connector:
+Name:con13
+Number of lines:1
+Name:line13
+X1, Y1:546,594
+X2, Y2:556,594
+
+Connector:
+Name:con14
+Number of lines:1
+Name:line14
+X1, Y1:556,594
+X2, Y2:566,594
+
+Connector:
+Name:con15
+Number of lines:1
+Name:line15
+X1, Y1:614,594
+X2, Y2:624,594
+
+Connector:
+Name:con16
+Number of lines:1
+Name:line16
+X1, Y1:624,594
+X2, Y2:634,594
+
+Connector:
+Name:con17
+Number of lines:1
+Name:line17
+X1, Y1:682,594
+X2, Y2:692,594
+
+Connector:
+Name:con18
+Number of lines:1
+Name:line18
+X1, Y1:712,568
+X2, Y2:722,568
+
+Connector:
+Name:con19
+Number of lines:1
+Name:line19
+X1, Y1:770,568
+X2, Y2:780,568
+
+Connector:
+Name:con20
+Number of lines:1
+Name:line20
+X1, Y1:800,594
+X2, Y2:810,594
+
+Connector:
+Name:con21
+Number of lines:1
+Name:line21
+X1, Y1:858,594
+X2, Y2:868,594
+
+Connector:
+Name:con22
+Number of lines:1
+Name:line22
+X1, Y1:60,620
+X2, Y2:70,620
+
+Connector:
+Name:con23
+Number of lines:1
+Name:line23
+X1, Y1:118,620
+X2, Y2:128,620
+
+Connector:
+Name:con24
+Number of lines:4
+Name:line24
+X1, Y1:50,568
+X2, Y2:50,620
+Name:line26
+X1, Y1:50,568
+X2, Y2:60,568
+Name:line28
+X1, Y1:50,620
+X2, Y2:60,620
+Name:line30
+X1, Y1:40,594
+X2, Y2:50,594
+
+Connector:
+Name:con25
+Number of lines:4
+Name:line25
+X1, Y1:138,568
+X2, Y2:138,620
+Name:line27
+X1, Y1:128,568
+X2, Y2:138,568
+Name:line29
+X1, Y1:128,620
+X2, Y2:138,620
+Name:line31
+X1, Y1:138,594
+X2, Y2:148,594
+
+Connector:
+Name:con26
+Number of lines:1
+Name:line32
+X1, Y1:712,620
+X2, Y2:722,620
+
+Connector:
+Name:con27
+Number of lines:1
+Name:line33
+X1, Y1:770,620
+X2, Y2:780,620
+
+Connector:
+Name:con28
+Number of lines:4
+Name:line34
+X1, Y1:702,568
+X2, Y2:702,620
+Name:line36
+X1, Y1:702,568
+X2, Y2:712,568
+Name:line38
+X1, Y1:702,620
+X2, Y2:712,620
+Name:line40
+X1, Y1:692,594
+X2, Y2:702,594
+
+Connector:
+Name:con29
+Number of lines:4
+Name:line35
+X1, Y1:790,568
+X2, Y2:790,620
+Name:line37
+X1, Y1:780,568
+X2, Y2:790,568
+Name:line39
+X1, Y1:780,620
+X2, Y2:790,620
+Name:line41
+X1, Y1:790,594
+X2, Y2:800,594
+
+Node infos:
+Number of nodes already created: 20
+
+Node:
+Name:node3
+X1, Y1:281,591
+Left structure:block2
+Right structure:block3
+
+Node:
+Name:node2
+X1, Y1:213,591
+Left structure:block1
+Right structure:block2
+
+Node:
+Name:node1
+X1, Y1:125,565
+Left structure:block0
+Right structure:null
+
+Node:
+Name:node0
+X1, Y1:57,565
+Left structure:null
+Right structure:block0
+
+Node:
+Name:node19
+X1, Y1:777,617
+Left structure:block12
+Right structure:null
+
+Node:
+Name:node18
+X1, Y1:709,617
+Left structure:null
+Right structure:block12
+
+Node:
+Name:node17
+X1, Y1:797,591
+Left structure:parallel1
+Right structure:block10
+
+Node:
+Name:node16
+X1, Y1:689,591
+Left structure:block8
+Right structure:parallel1
+
+Node:
+Name:node15
+X1, Y1:125,617
+Left structure:block11
+Right structure:null
+
+Node:
+Name:node14
+X1, Y1:57,617
+Left structure:null
+Right structure:block11
+
+Node:
+Name:node13
+X1, Y1:145,591
+Left structure:parallel0
+Right structure:block1
+
+Node:
+Name:node12
+X1, Y1:37,591
+Left structure:null
+Right structure:parallel0
+
+Node:
+Name:node11
+X1, Y1:865,591
+Left structure:block10
+Right structure:null
+
+Node:
+Name:node10
+X1, Y1:777,565
+Left structure:block9
+Right structure:null
+
+Node:
+Name:node9
+X1, Y1:709,565
+Left structure:null
+Right structure:block9
+
+Node:
+Name:node8
+X1, Y1:621,591
+Left structure:block7
+Right structure:block8
+
+Node:
+Name:node7
+X1, Y1:553,591
+Left structure:block6
+Right structure:block7
+
+Node:
+Name:node6
+X1, Y1:485,591
+Left structure:block5
+Right structure:block6
+
+Node:
+Name:node5
+X1, Y1:417,591
+Left structure:block4
+Right structure:block5
+
+Node:
+Name:node4
+X1, Y1:349,591
+Left structure:block3
+Right structure:block4
+
+Structure:
+Name: parallel1
+Type Structure: parallel
+Width, Height:108,80
+leftNode: node16
+rightNode: node17
+leftConn: con28
+rightConn: con29
+inSystem: serie0
+Vector structure:[block9, block12]
+
+Structure:
+Name: parallel0
+Type Structure: parallel
+Width, Height:108,80
+leftNode: node12
+rightNode: node13
+leftConn: con24
+rightConn: con25
+inSystem: serie0
+Vector structure:[block0, block11]
+
+Structure:
+Name: serie0
+Type Structure: series
+Width, Height:828,80
+leftNode: node12
+rightNode: node11
+leftConn: null
+rightConn: null
+inSystem: null
+Vector structure:[parallel0, block1, block2, block3, block4, block5, block6, block7, block8, parallel1, block10]
+
+
+
+Output:
+Outputs created: 2
+Output name: Mean time to failure (MTTF)
+Time: null
+Grid values: 0
+Output name: Variance
+Time: null
+Grid values: 0
